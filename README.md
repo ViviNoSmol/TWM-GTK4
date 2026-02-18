@@ -6,3 +6,6 @@ Its also heavily based on the GTK 3.0 CSS theme made by @pdn6606, its also in be
 If you have any issue, report it, and if you manage to fix it, better!
 
 The whole idea behind this is to use it alongside GTK 4 based apps or themes, those two themes are such a blast! But is a shame that GTK4.0 Support is missing, so here is why I decided to do this, hope you like it!
+
+# HOW TO INSTALL IT!!
+Move the `gtk.css` and `gtk-dark.css` to `/home/$USER/.config/gtk-4.0/` folder, replace anything if needed. (Also if you have a GTK4 theme installed, don't forget to do a backup)
