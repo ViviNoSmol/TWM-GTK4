@@ -1,0 +1,264 @@
+@define-color accent_color #9666ff;
+@define-color accent_bg_color #9666ff;
+@define-color accent_fg_color #000000;
+
+@define-color window_bg_color #000000;
+@define-color window_fg_color #9666ff;
+
+@define-color view_bg_color #000000;
+@define-color view_fg_color #9666ff;
+
+@define-color headerbar_bg_color #000000;
+@define-color headerbar_fg_color #9666ff;
+
+@define-color popover_bg_color #000000;
+@define-color popover_fg_color #9666ff;
+
+* {
+  background-image: none;
+  box-shadow: none;
+}
+
+window {
+  background-color: #000000;
+  color: #9666ff;
+  border: 3px solid #9666ff;
+  border-radius: 0px;
+}
+
+headerbar {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+button {
+  background-color: #000000;
+  color: #9666ff;
+  border: 1px solid #9666ff;
+  border-radius: 0px;
+}
+
+button:hover {
+  background-color: #1a1a1a;
+}
+
+button:active,
+button:checked {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+entry {
+  background-color: #000000;
+  color: #9666ff;
+  border: 1px solid #9666ff;
+  border-radius: 0px;
+}
+
+entry selection {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+listview,
+columnview,
+listbox,
+row {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+row:selected {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+scale trough {
+  background-color: #222222;
+}
+
+scale highlight {
+  background-color: #9666ff;
+}
+
+switch:checked {
+  background-color: #9666ff;
+}
+
+dropdown > button {
+  background-color: #000000;
+  color: #9666ff;
+  border: 1px solid #9666ff;
+  border-radius: 0px;
+}
+
+dropdown > button:hover {
+  background-color: #1a1a1a;
+}
+
+popover {
+  background-color: #000000;
+  border: 2px solid #9666ff;
+  border-radius: 0px;
+}
+
+popover contents {
+  background-color: #000000;
+}
+
+popover listview row {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+popover listview row:hover {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+columnview {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+columnview header {
+  background-color: #000000;
+  color: #9666ff;
+  border-bottom: 1px solid #9666ff;
+}
+
+columnview header button {
+  background-color: #000000;
+  color: #9666ff;
+  border: none;
+}
+
+columnview row {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+columnview row:hover {
+  background-color: #111111;
+}
+
+columnview row:selected {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+columnview row:selected label {
+  color: #000000;
+}
+
+notebook {
+  background-color: #000000;
+}
+
+notebook > header {
+  background-color: #000000;
+  border: none;
+}
+
+notebook > stack {
+  background-color: #000000;
+}
+
+notebook tab {
+  background-color: #000000;
+  color: #9666ff;
+  border: 1px solid #9666ff;
+  border-radius: 0px;
+}
+
+notebook tab:hover {
+  background-color: #1a1a1a;
+}
+
+notebook tab:checked {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+stacksidebar {
+  background-color: #000000;
+}
+
+stacksidebar row {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+stacksidebar row:selected {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+separator {
+  background-color: #222222;
+}
+
+frame {
+  background-color: #000000;
+  border: 1px solid #9666ff;
+}
+
+toolbar {
+  background-color: #000000;
+}
+
+spinbutton > box {
+  background-color: #000000;
+}
+
+levelbar trough {
+  background-color: #111111;
+}
+
+levelbar block {
+  border: none;
+}
+
+.card {
+  background-color: #000000;
+}
+
+.content,
+.view {
+  background-color: #000000;
+}
+
+textview {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+textview text {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+textview:focus text {
+  background-color: #000000;
+}
+
+textview selection {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+.background {
+  background-color: #000000;
+}
+
+.frame {
+  background-color: #000000;
+}
+
+.toolbar {
+  background-color: #000000;
+}
+
+box {
+  background-color: transparent;
+}
