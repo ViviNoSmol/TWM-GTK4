@@ -1,6 +1,6 @@
 # TWM-GTK4 / WME Edition GTK4 [BETA]
 OneShot TWM theme for GTK4 
-<img width="1920" height="1039" alt="image" src="https://github.com/user-attachments/assets/1ed3e680-d8ac-4184-a353-4d608cb4630d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/388dfb51-530c-4d6f-ae9d-17cafb5d3025" />
 ###### (here is running the gtk-widgets-factory program and lutris!)
 
 This theme is made for the [TWM-Xfce4](https://github.com/pdn6606/TWM-xfce) & [WME Edition Plasma theme](https://github.com/capYT-real/OneShot-WME-Plasma6Theme) projects.
