@@ -312,3 +312,21 @@ notebook header tabs tab:checked {
   color: #000000;
   border: 1px solid #9666ff;
 }
+
+/* lutris/csd border fix */
+window.csd,
+window.solid-csd {
+  border: 3px solid #9666ff;
+  border-radius: 0px;
+}
+
+decoration,
+window decoration {
+  border: 3px solid #9666ff;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+decoration:backdrop {
+  border: 3px solid #4a327a;
+}
