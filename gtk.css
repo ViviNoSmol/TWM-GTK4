@@ -262,3 +262,53 @@ textview selection {
 box {
   background-color: transparent;
 }
+
+/* stupid headers fix*/
+scale slider {
+  background-color: #9666ff;
+  border: 1px solid #9666ff;
+  border-radius: 100%;
+  min-width: 16px;
+  min-height: 16px;
+}
+
+scale slider:hover {
+  background-color: #b38eff;
+}
+
+scale slider:active {
+  background-color: #000000;
+  border-color: #9666ff;
+  border-width: 2px;
+}
+
+stacksidebar row {
+  background-color: #000000;
+  color: #9666ff;
+  border: 1px solid #9666ff;
+  margin: 2px 4px;
+}
+
+stacksidebar row:selected {
+  background-color: #9666ff;
+  color: #000000;
+  border: 1px solid #9666ff;
+}
+
+notebook header tabs tab {
+  background-color: #000000;
+  color: #9666ff;
+  border: 1px solid #9666ff;
+  margin: 2px 4px;
+  padding: 4px 8px;
+}
+
+notebook header tabs tab:hover {
+  background-color: #1a1a1a;
+}
+
+notebook header tabs tab:checked {
+  background-color: #9666ff;
+  color: #000000;
+  border: 1px solid #9666ff;
+}
