@@ -330,3 +330,27 @@ window decoration {
 decoration:backdrop {
   border: 3px solid #4a327a;
 }
+
+/* fuuuuuuuck i forgot treeview */
+treeview,
+treeview.view {
+  background-color: #000000;
+  color: #9666ff;
+}
+
+treeview:hover {
+  background-color: #111111;
+}
+
+treeview:selected {
+  background-color: #9666ff;
+  color: #000000;
+}
+
+treeview text {
+  color: #9666ff;
+}
+
+treeview text:selected {
+  color: #000000;
+}
